@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'GmarketSans-Light';
+    src: url(../font/GmarketSansTTFLight.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-Medium.ttf);
+}
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/*  헤더  */
+
+header {
+    width: 95%;
+    height: 150px;
+    margin: auto;
+}
+
+
+
+/*  검색 창  */
+
+section[name='searchSc'] {
+    width: 95%;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto';
+}
+
+section[name='searchSc'] > div {
+    margin: auto;
+    width: 600px;
+    height: 40px;
+    border: 0;
+    border-bottom: 4px solid black;
+}
+
+section[name='searchSc'] > div > input[type='text'] {
+    width: 514px;
+    height: 35px;
+    border: 0;
+}
+
+section[name='searchSc'] > div > input[type='submit'] {
+    width: 80px;
+    height: 44px;
+    border: 0;
+    border-radius: 0 20px 0 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+section[name='searchSc'] > div > input[type='submit']:hover {
+    background-color: grey;
+}
+
+
+
+
+
+
+/*  기업 카테고리  */
+
+.enterDiv {
+    width: 80px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+.enterDiv:hover {
+    transform: scale(1.05);
+}
+
+.enterDiv > a {
+    cursor: pointer;
+}
+
+.enterDiv > a > div {
+    position: relative;
+    width: 100%;
+    height: 90px;
+}
+
+.enterDiv > a > div > img {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.enterDiv > a > p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+/*  컨텐츠  */
+
+section[name='contentSc'] {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Roboto';
+}
+
+.categoryDiv {
+    width: 18%;
+    height: 100%;
+    min-height: 400px;
+    float: left;
+    box-shadow:0 5px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.categoryDiv > ul > li > a {
+    cursor: pointer;
+}
+
+
+.object {
+    width: 190px;
+    height: 250px;
+    margin: 20px;
+    float: left;
+}
+
+.object > div {
+    width: 190px;
+    height: 180px;
+    background-color: #1111;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.object > h4 {
+    margin: 0;
+    margin-top: 5px;
+    color: grey;
+}
+
+.object > p {
+    margin-top: 5px;
+    position: relative;
+}
+
+.object > div {
+    position: relative;
+}
+
+.object > div > img {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+.objectDiv {
+    width: 79%;
+    height: 100%;
+    float: right;
+    box-shadow:0 5px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
