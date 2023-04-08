@@ -151,7 +151,7 @@ section[name='contentSc'] {
 .object > div {
     width: 100%;
     height: 180px;
-    background-color: #1111;
+    background-color: aliceblue;
     border-radius: 20px;
     text-align: center;
     overflow: hidden;
